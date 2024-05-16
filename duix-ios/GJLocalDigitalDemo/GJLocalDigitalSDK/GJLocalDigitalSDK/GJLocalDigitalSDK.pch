@@ -13,26 +13,7 @@
 #endif
 // Include any system framework and library headers here that should be included in all compilation units.
 // You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
-//开发环境
-#define GJSDKBaseDevUrl @"https://devvshow.guiji.ai/"
-//测试环境
-#define GJSDKBaseTestUrl @"https://prevshow.guiji.ai/"
-//生产环境
-#define GJSDKBaseUrl @"https://duix.guiji.cn/"
-//授权
-#define GJLGETAPPSIG @"duix-openapi-v2/sdk/getApplicationSig"
-//检查是否存在可用时长
-#define GJCHECKDURATION @"duix-openapi-v2/sdkLocalVersion/checkDuration"
-//创建会话
-#define GJLCREATESESSION  @"duix-openapi-v2/sdkLocalVersion/createSession"
-//结束会话
-#define GJLENDSESSION       @"duix-openapi-v2/sdkLocalVersion/endSession"
-//心跳
-#define GJLHEARTBEAT      @"duix-openapi-v2/sdkLocalVersion/heartbeat"
-//流式问答接口
-#define GETANSWERSTREAM @"duix-openapi-v2/answer/getAnswerStream"
-//创建tts链接
-#define  CREATETTS      @"duix-openapi-v2/sdk/createTTS"
+
 
 
 
