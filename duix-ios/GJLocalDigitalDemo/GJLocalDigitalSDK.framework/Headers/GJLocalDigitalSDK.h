@@ -15,5 +15,9 @@ FOUNDATION_EXPORT const unsigned char GJLocalDigitalSDKVersionString[];
 
 // In this header, you should import all the public headers of your framework using statements like #import <GJLocalDigitalSDK/PublicHeader.h>
 
+
+
 #import <GJLocalDigitalSDK/GJLDigitalManager.h>
+
+
 
