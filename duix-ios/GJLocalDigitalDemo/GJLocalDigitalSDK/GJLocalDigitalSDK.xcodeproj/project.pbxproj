@@ -72,7 +72,6 @@
 		A0D81D752B298FBB002F98C1 /* DIMetalView.h in Headers */ = {isa = PBXBuildFile; fileRef = A0D81D732B298FBB002F98C1 /* DIMetalView.h */; };
 		A0E8C97E2B29CD5A0089DEE7 /* GJLOpenUDID.m in Sources */ = {isa = PBXBuildFile; fileRef = A0E8C97C2B29CD5A0089DEE7 /* GJLOpenUDID.m */; };
 		A0E8C97F2B29CD5A0089DEE7 /* GJLOpenUDID.h in Headers */ = {isa = PBXBuildFile; fileRef = A0E8C97D2B29CD5A0089DEE7 /* GJLOpenUDID.h */; };
-		A0FC3D872B282DC40069EA0E /* GJLocalDigitalSDK.docc in Sources */ = {isa = PBXBuildFile; fileRef = A0FC3D862B282DC40069EA0E /* GJLocalDigitalSDK.docc */; };
 		A0FC3D882B282DC40069EA0E /* GJLocalDigitalSDK.h in Headers */ = {isa = PBXBuildFile; fileRef = A0FC3D852B282DC40069EA0E /* GJLocalDigitalSDK.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		A0FC3DC32B2830CE0069EA0E /* GJLDigitalManager.h in Headers */ = {isa = PBXBuildFile; fileRef = A0FC3DC12B2830CE0069EA0E /* GJLDigitalManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		A0FC3DC42B2830CE0069EA0E /* GJLDigitalManager.mm in Sources */ = {isa = PBXBuildFile; fileRef = A0FC3DC22B2830CE0069EA0E /* GJLDigitalManager.mm */; };
@@ -180,7 +179,6 @@
 		A0E8C97D2B29CD5A0089DEE7 /* GJLOpenUDID.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GJLOpenUDID.h; sourceTree = "<group>"; };
 		A0FC3D822B282DC40069EA0E /* GJLocalDigitalSDK.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = GJLocalDigitalSDK.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		A0FC3D852B282DC40069EA0E /* GJLocalDigitalSDK.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GJLocalDigitalSDK.h; sourceTree = "<group>"; };
-		A0FC3D862B282DC40069EA0E /* GJLocalDigitalSDK.docc */ = {isa = PBXFileReference; lastKnownFileType = folder.documentationcatalog; path = GJLocalDigitalSDK.docc; sourceTree = "<group>"; };
 		A0FC3DC12B2830CE0069EA0E /* GJLDigitalManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GJLDigitalManager.h; sourceTree = "<group>"; };
 		A0FC3DC22B2830CE0069EA0E /* GJLDigitalManager.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = GJLDigitalManager.mm; sourceTree = "<group>"; };
 		A0FC3E2A2B283BBF0069EA0E /* openmp.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = openmp.framework; sourceTree = "<group>"; };
@@ -368,7 +366,6 @@
 				A0FC3E432B283DD80069EA0E /* libjpeg-turbo */,
 				A0FC3E292B283BAB0069EA0E /* GJFrameWork */,
 				A0FC3D852B282DC40069EA0E /* GJLocalDigitalSDK.h */,
-				A0FC3D862B282DC40069EA0E /* GJLocalDigitalSDK.docc */,
 				A0FC3DC12B2830CE0069EA0E /* GJLDigitalManager.h */,
 				A0FC3DC22B2830CE0069EA0E /* GJLDigitalManager.mm */,
 				A0BB09202B3ACBB600BF0CC1 /* GJLocalDigitalSDK.pch */,
@@ -628,7 +625,6 @@
 				A000F19B2BAC351C00AE6DD2 /* wenet.cpp in Sources */,
 				A0A336A32B31499800C07A38 /* DigitalConfigModel.m in Sources */,
 				A000F1A32BAC351C00AE6DD2 /* munet.cpp in Sources */,
-				A0FC3D872B282DC40069EA0E /* GJLocalDigitalSDK.docc in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
