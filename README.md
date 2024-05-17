@@ -29,6 +29,3 @@ ios参考 [GJLocalDigitalSDK.md](./duix-ios/GJLocalDigitalDemo/GJLocalDigitalSDK
 
 ### contact us
     maoliyan@guiji.ai
-
-
-# duix.ai
