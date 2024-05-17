@@ -27,7 +27,8 @@ ios参考 [GJLocalDigitalSDK.md](./duix-ios/GJLocalDigitalDemo/GJLocalDigitalSDK
 ### Acknowledgements
 -音频特征我们借鉴了 [wenet](https://github.com/wenet-e2e/wenet)  
 
-### 如果有定制需求或技术支持，请在讨论区留言，更多详细信息请访问 [**硅基智能**]官网(https://www.guiji.ai)
+### contact us
+    maoliyan@guiji.ai
 
 
 # duix.ai
