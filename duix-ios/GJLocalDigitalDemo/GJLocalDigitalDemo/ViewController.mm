@@ -22,37 +22,14 @@
 #import "GJDownWavTool.h"
 #import "GYAccess.h"
 
-#define APPID  @"1186984085248151552"
-#define APPKEY @"9067e7a8-7bca-45be-b70f-c151dfe541c3"
-
-//#define APPID  @"1188841947788349440"
-//#define APPKEY @"712e1976-4a29-4266-9b7b-85151b1e67a1"
-
-//开发
-//#define APPID  @"1138889215195615232"
-//#define APPKEY @"b600e2e5-ef6b-43c9-9902-5f3fabf1ce90"
-
-//对话模型ID
-//#define CONVERSATIONID  @"1719646783464673282"
-
-//对话模型ID
-#define CONVERSATIONID  @"1742845670782144514"
 
 //基础模型
 #define BASEMODELURL   @"https://digital-public.obs.cn-east-3.myhuaweicloud.com/duix/location/gj_dh_res.zip"
 //////数字人模型
-#define DIGITALMODELURL @"https://digital-public.obs.cn-east-3.myhuaweicloud.com/duix/digital/model/1706009711636/liangwei_540s.zip"
-
-//两个人物模型
-//https://digital-public.obs.cn-east-3.myhuaweicloud.com/duix/digital/model/1706604220422/明智.png
-//https://digital-public.obs.cn-east-3.myhuaweicloud.com/duix/digital/model/1706009766199/mingzhi_540s.zip
+#define DIGITALMODELURL @"https://digital-public.obs.cn-east-3.myhuaweicloud.com/duix/digital/model/1716034688/bendi3_20240518.zip"
 
 
-//https://digital-public.obs.cn-east-3.myhuaweicloud.com/duix/digital/model/1706604171491/梁维.png
-//https://digital-public.obs.cn-east-3.myhuaweicloud.com/duix/digital/model/1706009711636/liangwei_540s.zip
 
-////////数字人模型
-//#define DIGITALMODELURL @"https://digital-public-dev.obs.cn-east-3.myhuaweicloud.com/duix/digital/model/1705919208877/053meihua_540s.zip"
 
 
 
