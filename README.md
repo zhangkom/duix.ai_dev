@@ -1,8 +1,8 @@
 # Duix - 硅基数字人SDK 🌐🤖
 
-<p align="center">
-  <img src="res/logo.jpg" width=200/>
-</p>
+<div style="width: 100%; text-align: center;">
+  <img src="res/logo.jpg" style="width: 100%; height: auto;"/>
+</div>
 
 ## 简介   
 DUIX全称为"Dialogue User Interface System"，是硅基智能打造的数字人智能交互平台，已将硅基数字人SDK进行开源，开发者能够在Android和iOS等设备上一键部署，为用户提供即时的虚拟人互动体验。内置的两个形象使得用户可以轻松上手，直接体验数字人的魅力。
