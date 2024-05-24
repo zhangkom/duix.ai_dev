@@ -36,9 +36,9 @@ duix-ios: ios demo
 
 ## Open Documentation Entry
 
-For android, refer to [README.md](./duix-android/dh_aigc_android/README_en.md)
+For android, refer to [README_en.md](./duix-android/dh_aigc_android/README_en.md)
 
-For ios, refer to [GJLocalDigitalSDK.md](./duix-ios/GJLocalDigitalDemo/GJLocalDigitalSDK_en.md)<br><br>
+For ios, refer to [GJLocalDigitalSDK_en.md](./duix-ios/GJLocalDigitalDemo/GJLocalDigitalSDK_en.md)<br><br>
 
 ## Digital Human Avatar Display
 
