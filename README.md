@@ -21,8 +21,8 @@ duix-ios: ios demo
 
 ### 开放文档入口
 
-android参考 [README_zh.md](./duix-android/dh_aigc_android/README.md)  [README_en.md](./duix-android/dh_aigc_android/README_en.md) 
-ios参考 [GJLocalDigitalSDK_zh.md](./duix-ios/GJLocalDigitalDemo/GJLocalDigitalSDK.md) [GJLocalDigitalSDK_en.md](./duix-ios/GJLocalDigitalDemo/GJLocalDigitalSDK_en.md)   
+android参考 [简体中文](./duix-android/dh_aigc_android/README.md)  [English](./duix-android/dh_aigc_android/README_en.md) <br>
+ios参考 [简体中文](./duix-ios/GJLocalDigitalDemo/GJLocalDigitalSDK.md) [English](./duix-ios/GJLocalDigitalDemo/GJLocalDigitalSDK_en.md)   
 
 ### 数字人形象展示
 <p align="center">
