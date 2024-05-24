@@ -26,8 +26,8 @@ duix-ios: ios demo
 
 ### 开放文档入口 Open Documentation Portal
 
-android参考 [简体中文](./duix-android/dh_aigc_android/README.md)  [English](./duix-android/dh_aigc_android/README_en.md) <br>
-ios参考 [简体中文](./duix-ios/GJLocalDigitalDemo/GJLocalDigitalSDK.md) [English](./duix-ios/GJLocalDigitalDemo/GJLocalDigitalSDK_en.md)   <br><br>
+android参考 [简体中文](./duix-android/dh_aigc_android/README.md) <br>
+ios参考 [简体中文](./duix-ios/GJLocalDigitalDemo/GJLocalDigitalSDK.md)  <br><br>
 
 ### 数字人形象展示 Digital Avatar Showcase
 <p align="center">
