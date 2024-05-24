@@ -47,7 +47,7 @@ For ios, refer to [GJLocalDigitalSDK.md](./duix-ios/GJLocalDigitalDemo/GJLocalDi
   <img src="res/男.jpg" width=200/>
 </p>
 
-The two built-in models and AI model packages can be downloaded through the public network address. [Female link address](https://digital-public.obs.cn-east-3.myhuaweicloud.com/duix/digital/model/1716034688/bendi1_0329.zip) [Male link address](https://digital-public.obs.cn-east-3.myhuaweicloud.com/duix/digital/model/1716034688/bendi3_20240518.zip)<br><br>
+The two built-in models and AI model packages can be downloaded through the public network address. [Female](https://digital-public.obs.cn-east-3.myhuaweicloud.com/duix/digital/model/1716034688/bendi1_0329.zip) [Male](https://digital-public.obs.cn-east-3.myhuaweicloud.com/duix/digital/model/1716034688/bendi3_20240518.zip)<br><br>
 
 ## Version Record
 
