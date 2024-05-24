@@ -1,4 +1,4 @@
-# Duix - Silicon-Based Digital Human SDK 🌐🤖
+# Duix - Silicon-Based Digital Human SDK 🌐🤖   
 
 <div style="width: 100%; text-align: center;">
   <img src="res/logo_en.jpg" style="width: 100%; height: auto;"/>
@@ -42,7 +42,10 @@ For ios, refer to [GJLocalDigitalSDK.md](https://github.com/GuijiAI/duix.ai/blob
 
 ## Digital Human Avatar Display
 
-<img src="D:\软件\Typora\image\男.jpg" alt="男" style="zoom:50%;" /><img src="D:\软件\Typora\image\女-1716186142723-10.jpg" alt="女" style="zoom:50%;" />
+<p align="center">
+  <img src="res/女.jpg" width=200/>
+  <img src="res/男.jpg" width=200/>
+</p>
 
 The two built-in models and AI model packages can be downloaded through the public network address. [Female link address](https://digital-public.obs.cn-east-3.myhuaweicloud.com/duix/digital/model/1716034688/bendi1_0329.zip) [Male link address](https://digital-public.obs.cn-east-3.myhuaweicloud.com/duix/digital/model/1716034688/bendi3_20240518.zip)<br><br>
 
