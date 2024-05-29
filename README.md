@@ -60,7 +60,7 @@ ios参考 [简体中文](./duix-ios/GJLocalDigitalDemo/GJLocalDigitalSDK.md)  <b
 
 请根据您的需求下载相应的模型文件。我们建议您在下载后仔细阅读随附的文档，以确保正确安装和使用模型。<br><br>
 
-## 版本记录 Changelog
+### 版本记录 Changelog
 
 - **3.0.4**: 修复部分设备gl默认float低精度导致无法正常显示形象问题。
 - **3.0.3**: 优化本地渲染<br><br>
