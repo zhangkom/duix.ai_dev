@@ -56,7 +56,7 @@ We provide additional digital human models for download and use. Here is the lis
 - **Sophie**
 [Download](https://digital-public.obs.cn-east-3.myhuaweicloud.com/duix/digital/model/1716888936579/sufei_20240528.zip)
 
-- **Murong Xiao**
+- **Mu Rong Xiao**
 [Download](https://digital-public.obs.cn-east-3.myhuaweicloud.com/duix/digital/model/1716888801385/murongxiao_20240528.zip)
 
 - **Cold Flame**
@@ -67,6 +67,27 @@ We provide additional digital human models for download and use. Here is the lis
 
 - **Eric**
 [Download](https://digital-public.obs.cn-east-3.myhuaweicloud.com/duix/digital/model/1716888516200/airuike_20240528.zip)
+
+- **Zi Xuan**
+[Download](https://digital-public.obs.cn-east-3.myhuaweicloud.com/duix/digital/model/1716890628522/zixuan_20240529.zip)
+
+- **Zhao Ya**
+[Download](https://digital-public.obs.cn-east-3.myhuaweicloud.com/duix/digital/model/1716891345706/zhaoya_20240529.zip)
+
+- **Yi Yao**
+[Download](https://digital-public.obs.cn-east-3.myhuaweicloud.com/duix/digital/model/1716891579303/yiyao_20240529.zip)
+
+- **Xin Yan**
+[Download](https://digital-public.obs.cn-east-3.myhuaweicloud.com/duix/digital/model/1716891699212/xinyan_20240529.zip)
+
+- **Xiao Xuan**
+[Download](https://digital-public.obs.cn-east-3.myhuaweicloud.com/duix/digital/model/1716891894722/xiaoxuan_20240529.zip)
+
+- **Si Yao**
+[Download](https://digital-public.obs.cn-east-3.myhuaweicloud.com/duix/digital/model/1716892228368/siyao_20240529.zip)
+
+- **Shi Ya**
+[Download](https://digital-public.obs.cn-east-3.myhuaweicloud.com/duix/digital/model/1716892436557/shiya_20240529.zip)
 
 Please download the model files according to your needs. We recommend that you carefully read the accompanying documentation after downloading to ensure the correct installation and use of the models.<br><br>
 
