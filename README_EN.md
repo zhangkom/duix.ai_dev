@@ -49,6 +49,27 @@ For ios, refer to [GJLocalDigitalSDK_en.md](./duix-ios/GJLocalDigitalDemo/GJLoca
 
 The two built-in models and AI model packages can be downloaded through the public network address. [Female](https://digital-public.obs.cn-east-3.myhuaweicloud.com/duix/digital/model/1716034688/bendi1_0329.zip) [Male](https://digital-public.obs.cn-east-3.myhuaweicloud.com/duix/digital/model/1716034688/bendi3_20240518.zip)<br><br>
 
+### Local Model Downloads
+
+We provide additional digital human models for download and use. Here is the list of currently available models: We will update the local model packages periodically so you can download and use the latest models. Here is the list of currently available local model packages:
+
+- **Sophie**
+[Download](https://digital-public.obs.cn-east-3.myhuaweicloud.com/duix/digital/model/1716888936579/sufei_20240528.zip)
+
+- **Murong Xiao**
+[Download](https://digital-public.obs.cn-east-3.myhuaweicloud.com/duix/digital/model/1716888801385/murongxiao_20240528.zip)
+
+- **Cold Flame**
+[Download](https://digital-public.obs.cn-east-3.myhuaweicloud.com/duix/digital/model/1716888754222/lengyan_20240528.zip)
+
+- **Amelia**
+[Download](https://digital-public.obs.cn-east-3.myhuaweicloud.com/duix/digital/model/1716888645375/amelia_20240528.zip)
+
+- **Eric**
+[Download](https://digital-public.obs.cn-east-3.myhuaweicloud.com/duix/digital/model/1716888516200/airuike_20240528.zip)
+
+Please download the model files according to your needs. We recommend that you carefully read the accompanying documentation after downloading to ensure the correct installation and use of the models.<br><br>
+
 ## Version Record
 
 - **3.0.4**: Fixed an issue where some devices’ default gl float low precision caused the avatar to not display properly.
