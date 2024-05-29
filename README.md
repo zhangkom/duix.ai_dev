@@ -39,6 +39,27 @@ ios参考 [简体中文](./duix-ios/GJLocalDigitalDemo/GJLocalDigitalSDK.md)  <b
 [女](https://digital-public.obs.cn-east-3.myhuaweicloud.com/duix/digital/model/1716034688/bendi1_0329.zip)
 [男](https://digital-public.obs.cn-east-3.myhuaweicloud.com/duix/digital/model/1716034688/bendi3_20240518.zip)<br><br>
 
+### 本地模型下载
+
+我们提供了更多的数字人模型，可供下载和使用。以下是当前可用的模型列表：我们将不定期更新本地模型包，以便您可以下载和使用最新的模型。以下是当前可用的本地模型包列表：
+
+- **苏菲**
+[下载](https://digital-public.obs.cn-east-3.myhuaweicloud.com/duix/digital/model/1716888936579/sufei_20240528.zip)
+
+- **慕容晓**
+[下载](https://digital-public.obs.cn-east-3.myhuaweicloud.com/duix/digital/model/1716888801385/murongxiao_20240528.zip)
+
+- **冷焱**
+[下载](https://digital-public.obs.cn-east-3.myhuaweicloud.com/duix/digital/model/1716888754222/lengyan_20240528.zip)
+
+- **Amelia**
+[下载](https://digital-public.obs.cn-east-3.myhuaweicloud.com/duix/digital/model/1716888645375/amelia_20240528.zip)
+
+- **艾瑞克**
+[下载](https://digital-public.obs.cn-east-3.myhuaweicloud.com/duix/digital/model/1716888516200/airuike_20240528.zip)
+
+请根据您的需求下载相应的模型文件。我们建议您在下载后仔细阅读随附的文档，以确保正确安装和使用模型。<br><br>
+
 ## 版本记录 Changelog
 
 - **3.0.4**: 修复部分设备gl默认float低精度导致无法正常显示形象问题。
