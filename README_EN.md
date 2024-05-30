@@ -53,42 +53,6 @@ The two built-in models and AI model packages can be downloaded through the publ
 
 We provide additional digital human models for download and use. Here is the list of currently available models: We will update the local model packages periodically so you can download and use the latest models. Here is the list of currently available local model packages:
 
-- **Sophie**
-[Download](https://digital-public.obs.cn-east-3.myhuaweicloud.com/duix/digital/model/1716888936579/sufei_20240528.zip)
-
-- **Mu Rong Xiao**
-[Download](https://digital-public.obs.cn-east-3.myhuaweicloud.com/duix/digital/model/1716888801385/murongxiao_20240528.zip)
-
-- **Cold Flame**
-[Download](https://digital-public.obs.cn-east-3.myhuaweicloud.com/duix/digital/model/1716888754222/lengyan_20240528.zip)
-
-- **Amelia**
-[Download](https://digital-public.obs.cn-east-3.myhuaweicloud.com/duix/digital/model/1716888645375/amelia_20240528.zip)
-
-- **Eric**
-[Download](https://digital-public.obs.cn-east-3.myhuaweicloud.com/duix/digital/model/1716888516200/airuike_20240528.zip)
-
-- **Zi Xuan**
-[Download](https://digital-public.obs.cn-east-3.myhuaweicloud.com/duix/digital/model/1716890628522/zixuan_20240529.zip)
-
-- **Zhao Ya**
-[Download](https://digital-public.obs.cn-east-3.myhuaweicloud.com/duix/digital/model/1716891345706/zhaoya_20240529.zip)
-
-- **Yi Yao**
-[Download](https://digital-public.obs.cn-east-3.myhuaweicloud.com/duix/digital/model/1716891579303/yiyao_20240529.zip)
-
-- **Xin Yan**
-[Download](https://digital-public.obs.cn-east-3.myhuaweicloud.com/duix/digital/model/1716891699212/xinyan_20240529.zip)
-
-- **Xiao Xuan**
-[Download](https://digital-public.obs.cn-east-3.myhuaweicloud.com/duix/digital/model/1716891894722/xiaoxuan_20240529.zip)
-
-- **Si Yao**
-[Download](https://digital-public.obs.cn-east-3.myhuaweicloud.com/duix/digital/model/1716892228368/siyao_20240529.zip)
-
-- **Shi Ya**
-[Download](https://digital-public.obs.cn-east-3.myhuaweicloud.com/duix/digital/model/1716892436557/shiya_20240529.zip)
-
 | **Sophie**<br>[Download](https://digital-public.obs.cn-east-3.myhuaweicloud.com/duix/digital/model/1716888936579/sufei_20240528.zip) | **Mu Rong Xiao**<br>[Download](https://digital-public.obs.cn-east-3.myhuaweicloud.com/duix/digital/model/1716888801385/murongxiao_20240528.zip) | **Cold Flame**<br>[Download](https://digital-public.obs.cn-east-3.myhuaweicloud.com/duix/digital/model/1716888754222/lengyan_20240528.zip) | **Amelia**<br>[Download](https://digital-public.obs.cn-east-3.myhuaweicloud.com/duix/digital/model/1716888645375/amelia_20240528.zip) | **Eric**<br>[Download](https://digital-public.obs.cn-east-3.myhuaweicloud.com/duix/digital/model/1716888516200/airuike_20240528.zip) | **Zi Xuan**<br>[Download](https://digital-public.obs.cn-east-3.myhuaweicloud.com/duix/digital/model/1716890628522/zixuan_20240529.zip) |
 |:-------:|:-------:|:-------:|:-------:|:-------:|:-------:|
 | **Zhao Ya<br>[Download](https://digital-public.obs.cn-east-3.myhuaweicloud.com/duix/digital/model/1716891345706/zhaoya_20240529.zip)** | **Yi Yao<br>[Download](https://digital-public.obs.cn-east-3.myhuaweicloud.com/duix/digital/model/1716891579303/yiyao_20240529.zip)** | **Xin Yan<br>[Download](https://digital-public.obs.cn-east-3.myhuaweicloud.com/duix/digital/model/1716891699212/xinyan_20240529.zip)** | **Xiao Xuan<br>[Download](https://digital-public.obs.cn-east-3.myhuaweicloud.com/duix/digital/model/1716891894722/xiaoxuan_20240529.zip)** | **Si Yao<br>[Download](https://digital-public.obs.cn-east-3.myhuaweicloud.com/duix/digital/model/1716892228368/siyao_20240529.zip)** | **Shi Ya<br>[Download](https://digital-public.obs.cn-east-3.myhuaweicloud.com/duix/digital/model/1716892436557/shiya_20240529.zip)** |
