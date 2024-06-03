@@ -35,11 +35,11 @@ ios参考 [简体中文](./duix-ios/GJLocalDigitalDemo/GJLocalDigitalSDK.md)  <b
   <img src="res/男.jpg" width=200/>
 </p>
 
-内置的2个模特，模板和AI模型包可以通过公网地址下载。    
+内置的公共模特，模板和AI模型包可以通过公网地址下载。    
 [女](https://digital-public.obs.cn-east-3.myhuaweicloud.com/duix/digital/model/1716034688/bendi1_0329.zip)
 [男](https://digital-public.obs.cn-east-3.myhuaweicloud.com/duix/digital/model/1716034688/bendi3_20240518.zip)<br><br>
 
-### 本地模型下载 Local Model Downloads
+### 更多本地模型下载 More Local Model Downloads
 
 我们提供了更多的数字人模型，可供下载和使用。以下是当前可用的模型列表：我们将不定期更新本地模型包，以便您可以下载和使用最新的模型。以下是当前可用的本地模型包列表：
 
