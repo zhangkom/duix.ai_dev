@@ -47,9 +47,9 @@ For ios, refer to [GJLocalDigitalSDK_en.md](./duix-ios/GJLocalDigitalDemo/GJLoca
   <img src="res/男.jpg" width=200/>
 </p>
 
-The two built-in models and AI model packages can be downloaded through the public network address. [Female](https://digital-public.obs.cn-east-3.myhuaweicloud.com/duix/digital/model/1716034688/bendi1_0329.zip) [Male](https://digital-public.obs.cn-east-3.myhuaweicloud.com/duix/digital/model/1716034688/bendi3_20240518.zip)<br><br>
+The built-in public models, templates, and AI model packages can be downloaded via the public internet address. [Female](https://digital-public.obs.cn-east-3.myhuaweicloud.com/duix/digital/model/1716034688/bendi1_0329.zip) [Male](https://digital-public.obs.cn-east-3.myhuaweicloud.com/duix/digital/model/1716034688/bendi3_20240518.zip)<br><br>
 
-### Local Model Downloads
+### More Local Model Downloads
 
 We provide additional digital human models for download and use. Here is the list of currently available models: We will update the local model packages periodically so you can download and use the latest models. Here is the list of currently available local model packages:
 
