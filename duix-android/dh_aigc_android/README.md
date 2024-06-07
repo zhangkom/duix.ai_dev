@@ -32,14 +32,12 @@
 
 ### 2. SDK集成
 
-引入 sdk aar 包: duix_client_sdk_release_${version}.aar
-app 目录新建 libs 目录,放入 aar 包,在 build.gradle 中增加配置如下
+在 build.gradle 中增加配置如下
 
 ```gradle
 dependencies {
-    // 使用aar包或直接引用SDK项目
+    // 引用SDK项目
     implementation project(":duix-sdk")
-    // implementation fileTree(include: ['*.jar', '*.aar'], dir: 'libs')
     // sdk 中使用到 exoplayer 处理音频(必选)
     implementation 'com.google.android.exoplayer:exoplayer:2.14.2'
     

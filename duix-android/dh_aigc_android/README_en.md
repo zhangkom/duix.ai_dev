@@ -27,13 +27,12 @@ Provide customized AI anchors, smart customer service and other multi-scene imag
 
 ### 2. SDK Integration
 
-Import sdk aar package: duix_client_sdk_release_${version}.aar Create a new libs directory in the app directory, put the aar package in, and add the following configuration in build.gradle:
+add the following configuration in build.gradle:
 
 ```gradle
 dependencies {
-    // Use aar package or directly reference SDK project
+    // reference SDK project
     implementation project(":duix-sdk")
-    // implementation fileTree(include: ['*.jar', '*.aar'], dir: 'libs')
     // The SDK uses exoplayer to handle audio (required)
     implementation 'com.google.android.exoplayer:exoplayer:2.14.2'
 
