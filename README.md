@@ -39,6 +39,10 @@ ios参考 [简体中文](./duix-ios/GJLocalDigitalDemo/GJLocalDigitalSDK.md)  <b
 [女](https://digital-public.obs.cn-east-3.myhuaweicloud.com/duix/digital/model/1716034688/bendi1_0329.zip)
 [男](https://digital-public.obs.cn-east-3.myhuaweicloud.com/duix/digital/model/1716034688/bendi3_20240518.zip)<br><br>
 
+### 商业案例展示 Business case presentation
+https://apps.apple.com/us/app/duix-your-ai-companion/id6451088879
+![image](https://github.com/GuijiAI/duix.ai/assets/36072872/a0b987e2-0b35-42e5-bbc6-3dae2f701ac3)
+
 ### 更多本地模型下载 More Local Model Downloads
 
 我们提供了更多的数字人模型，可供下载和使用。以下是当前可用的模型列表：我们将不定期更新本地模型包，以便您可以下载和使用最新的模型。以下是当前可用的本地模型包列表：
