@@ -31,7 +31,6 @@ The SDK not only provides intuitive effect demonstration but also supports users
 duix-android: android demo       
 duix-ios: ios demo 
 ```
-
 <br>
 
 ## Open Documentation Entry
