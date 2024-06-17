@@ -62,7 +62,7 @@ We offer a selection of digital human models for download and use. We will updat
 
 Please download the model files according to your needs. We recommend that you carefully read the accompanying documentation after downloading to ensure the correct installation and use of the models.<br><br>
 
-### Business case presentation
+## Business case presentation
 https://apps.apple.com/us/app/duix-your-ai-companion/id6451088879
 ![image](https://github.com/GuijiAI/duix.ai/assets/36072872/a0b987e2-0b35-42e5-bbc6-3dae2f701ac3)
 
