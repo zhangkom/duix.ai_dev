@@ -63,7 +63,35 @@ Please download the model files according to your needs. We recommend that you c
 
 ## Business case presentation
 https://apps.apple.com/us/app/duix-your-ai-companion/id6451088879
-![image](https://github.com/GuijiAI/duix.ai/assets/36072872/a0b987e2-0b35-42e5-bbc6-3dae2f701ac3)
+![image](https://github.com/GuijiAI/duix.ai/assets/36072872/a0b987e2-0b35-42e5-bbc6-3dae2f701ac3)<br><br>
+
+## Frequently Asked Questions
+#### 1. Can digital human customization be supported? Is it based on photos or videos?<br>
+Answer: Digital human customization is supported, and it is based on videos. You can customize a unique digital human for use in the SDK. However, customized digital humans are a paid service; you can contact the customer service email for more information.<br>
+
+#### 2. How to customize the image?<br>
+Answer: To customize a silicon-based digital human, you need to shoot a 3-5 minute real-life video with the person speaking on camera. The specific poses and content of the speech can be determined based on the actual usage scenarios. For example, if it is used to produce legal consultation videos, you can choose to appear in formal attire and speak about legal topics, creating a consistent overall situation. <br>
+
+#### 3. How is the customized image priced?<br>
+Answer: We offer digital human customization配套 with the SDK open-source interface, priced at 9800 yuan/set, including image + voice. For more customization needs, please contact the customer service email.<br>
+
+#### 4. How to update the digital human image?<br>
+Answer: Currently, the open-source version mainly provides public models, and customization is available if needed<br>
+
+#### 5. Is there an API interface for image cloning?<br>
+Answer: The training service currently only supports deployment on our internal servers for calls<br>
+
+#### 6. Does the broadcast wav file support streaming data?<br>
+Answer: The streaming driver is currently under改造 optimization and is not yet supported;<br>
+
+#### 7. Are there any callback methods for the start and end of the broadcast?<br>
+Answer: The callback methods for the start and end of the broadcast can be found in the SDK documentation <br>
+
+#### 8. Is there an API to control the actions of the digital human?<br>
+Answer: The digital human action API is not yet supported<br>
+
+#### 9. How to replace the downloaded files?<br>
+Answer: Instructions for replacing downloaded files can be found in the code<br><br>
 
 ## Version Record
 
