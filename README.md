@@ -30,7 +30,7 @@ android参考 [简体中文](./duix-android/dh_aigc_android/README.md) <br>
 ios参考 [简体中文](./duix-ios/GJLocalDigitalDemo/GJLocalDigitalSDK.md)  <br><br>
 
 ### 数字人本地模型下载 Download Digital Human Local Model
-我们提供了一些数字人模型，可供下载和使用。以下是当前可用的模型列表：我们将不定期更新本地模型包，以便您可以下载和使用最新的模型。以下是当前可用的本地模型包列表：
+我们提供了一些数字人模型，可供下载和使用。我们将不定期更新本地模型包，以便您可以下载和使用最新的模型。以下是当前可用的本地模型包列表：
 
 #### 男性
 |  <img src="https://github.com/maoliyan/DUIX-image/assets/170152837/afcd510c-e4e1-42dc-bb2d-40fe488e5670" width="200"> | <img src="https://github.com/maoliyan/DUIX-image/assets/170152837/788dfce8-0ca6-41c1-93f8-628999915a8d" width="200">| <img src="https://github.com/GuijiAI/duix.ai/raw/main/res/%E7%94%B7.jpg" width="200">|
