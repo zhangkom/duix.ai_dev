@@ -49,16 +49,16 @@ https://apps.apple.com/us/app/duix-your-ai-companion/id6451088879
 
 #### 男性
 |  <img src="https://github.com/maoliyan/DUIX-image/assets/170152837/afcd510c-e4e1-42dc-bb2d-40fe488e5670" width="200"> | <img src="https://github.com/maoliyan/DUIX-image/assets/170152837/788dfce8-0ca6-41c1-93f8-628999915a8d" width="200">|
-| --- | --- |
+|:-------:|:-------:|
 | **艾瑞克** [下载](https://digital-public.obs.cn-east-3.myhuaweicloud.com/duix/digital/model/1716888516200/airuike_20240528.zip) | **子轩** [下载](https://digital-public.obs.cn-east-3.myhuaweicloud.com/duix/digital/model/1716890628522/zixuan_20240529.zip) |
 
 #### 女性
 | <img src="https://github.com/maoliyan/DUIX-image/assets/170152837/09d0b60a-3eef-4889-a5da-b880feaa395a" width="200"> | <img src="https://github.com/maoliyan/DUIX-image/assets/170152837/390cca82-2202-43e7-add6-a2693847cffd" width="200"> | <img src="https://github.com/maoliyan/DUIX-image/assets/170152837/aeca6d5e-f706-462e-b8be-708358ffdabe" width="200"> | <img src="https://github.com/maoliyan/DUIX-image/assets/170152837/080fea1b-2168-48d6-a68f-803e94c565b8" width="200"> | <img src="https://github.com/maoliyan/DUIX-image/assets/170152837/50b1cd05-9a6c-48bd-abbf-72a18e89b503" width="200"> |
-| --- | --- | --- | --- | --- |
+|:-------:|:-------:|:-------:|:-------:|:-------:|
 | **苏菲** [下载](https://digital-public.obs.cn-east-3.myhuaweicloud.com/duix/digital/model/1716888936579/sufei_20240528.zip) | **慕容晓** [下载](https://digital-public.obs.cn-east-3.myhuaweicloud.com/duix/digital/model/1716888801385/murongxiao_20240528.zip) | **冷焱** [下载](https://digital-public.obs.cn-east-3.myhuaweicloud.com/duix/digital/model/1716888754222/lengyan_20240528.zip) | **Amelia** [下载](https://digital-public.obs.cn-east-3.myhuaweicloud.com/duix/digital/model/1716888645375/amelia_20240528.zip) | **赵雅 [下载](https://digital-public.obs.cn-east-3.myhuaweicloud.com/duix/digital/model/1716891345706/zhaoya_20240529.zip)** |
 
 | <img src="https://github.com/maoliyan/DUIX-image/assets/170152837/2e884df8-6175-4fdf-bdc1-e2e511a35590" width="200"> | <img src="https://github.com/maoliyan/DUIX-image/assets/170152837/15ac4a1e-83a1-4551-85be-a5736fb9e7dd" width="200"> | <img src="https://github.com/maoliyan/DUIX-image/assets/170152837/064bc60f-287b-4f1b-8859-25f056c07cbd" width="200"> | <img src="https://github.com/maoliyan/DUIX-image/assets/170152837/c15a20c4-5c1e-402f-86ac-5b5e773c81be" width="200"> | <img src="https://github.com/maoliyan/DUIX-image/assets/170152837/50b1cd05-9a6c-48bd-abbf-72a18e89b503" width="200"> |
-| --- | --- | --- | --- | --- |
+|:-------:|:-------:|:-------:|:-------:|:-------:|
 | **忆瑶 [下载](https://digital-public.obs.cn-east-3.myhuaweicloud.com/duix/digital/model/1716891579303/yiyao_20240529.zip)** | **心妍 [下载](https://digital-public.obs.cn-east-3.myhuaweicloud.com/duix/digital/model/1716891699212/xinyan_20240529.zip)** | **晓萱 [下载](https://digital-public.obs.cn-east-3.myhuaweicloud.com/duix/digital/model/1716891894722/xiaoxuan_20240529.zip)** | **思瑶 [下载](https://digital-public.obs.cn-east-3.myhuaweicloud.com/duix/digital/model/1716892228368/siyao_20240529.zip)** | **诗雅 [下载](https://digital-public.obs.cn-east-3.myhuaweicloud.com/duix/digital/model/1716892436557/shiya_20240529.zip)** |
 
 请根据您的需求下载相应的模型文件。我们建议您在下载后仔细阅读随附的文档，以确保正确安装和使用模型。<br><br>
