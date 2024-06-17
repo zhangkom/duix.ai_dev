@@ -29,28 +29,13 @@ duix-ios: ios demo
 android参考 [简体中文](./duix-android/dh_aigc_android/README.md) <br>
 ios参考 [简体中文](./duix-ios/GJLocalDigitalDemo/GJLocalDigitalSDK.md)  <br><br>
 
-### 数字人形象展示 Digital Avatar Showcase
-<p align="center">
-  <img src="res/女.jpg" width=200/>
-  <img src="res/男.jpg" width=200/>
-</p>
-
-内置的公共模特，模板和AI模型包可以通过公网地址下载。    
-[女](https://digital-public.obs.cn-east-3.myhuaweicloud.com/duix/digital/model/1716034688/bendi1_0329.zip)
-[男](https://digital-public.obs.cn-east-3.myhuaweicloud.com/duix/digital/model/1716034688/bendi3_20240518.zip)<br><br>
-
-### 商业案例展示 Business case presentation
-https://apps.apple.com/us/app/duix-your-ai-companion/id6451088879
-![image](https://github.com/GuijiAI/duix.ai/assets/36072872/a0b987e2-0b35-42e5-bbc6-3dae2f701ac3)
-
-### 更多本地模型下载 More Local Model Downloads
-
-我们提供了更多的数字人模型，可供下载和使用。以下是当前可用的模型列表：我们将不定期更新本地模型包，以便您可以下载和使用最新的模型。以下是当前可用的本地模型包列表：
+### 数字人本地模型下载 Download Digital Human Local Model
+我们提供了一些数字人模型，可供下载和使用。以下是当前可用的模型列表：我们将不定期更新本地模型包，以便您可以下载和使用最新的模型。以下是当前可用的本地模型包列表：
 
 #### 男性
-|  <img src="https://github.com/maoliyan/DUIX-image/assets/170152837/afcd510c-e4e1-42dc-bb2d-40fe488e5670" width="200"> | <img src="https://github.com/maoliyan/DUIX-image/assets/170152837/788dfce8-0ca6-41c1-93f8-628999915a8d" width="200">|
-|:-------:|:-------:|
-| **艾瑞克** [下载](https://digital-public.obs.cn-east-3.myhuaweicloud.com/duix/digital/model/1716888516200/airuike_20240528.zip) | **子轩** [下载](https://digital-public.obs.cn-east-3.myhuaweicloud.com/duix/digital/model/1716890628522/zixuan_20240529.zip) |
+|  <img src="https://github.com/maoliyan/DUIX-image/assets/170152837/afcd510c-e4e1-42dc-bb2d-40fe488e5670" width="200"> | <img src="https://github.com/maoliyan/DUIX-image/assets/170152837/788dfce8-0ca6-41c1-93f8-628999915a8d" width="200">| <img src="https://github.com/GuijiAI/duix.ai/raw/main/res/%E7%94%B7.jpg" width="200">|
+|:-------:|:-------:|:-------:|
+| **艾瑞克** [下载](https://digital-public.obs.cn-east-3.myhuaweicloud.com/duix/digital/model/1716888516200/airuike_20240528.zip) | **子轩** [下载](https://digital-public.obs.cn-east-3.myhuaweicloud.com/duix/digital/model/1716890628522/zixuan_20240529.zip) | **明轩** [下载](https://digital-public.obs.cn-east-3.myhuaweicloud.com/duix/digital/model/1716034688/bendi3_20240518.zip) |
 
 #### 女性
 | <img src="https://github.com/maoliyan/DUIX-image/assets/170152837/09d0b60a-3eef-4889-a5da-b880feaa395a" width="200"> | <img src="https://github.com/maoliyan/DUIX-image/assets/170152837/390cca82-2202-43e7-add6-a2693847cffd" width="200"> | <img src="https://github.com/maoliyan/DUIX-image/assets/170152837/aeca6d5e-f706-462e-b8be-708358ffdabe" width="200"> | <img src="https://github.com/maoliyan/DUIX-image/assets/170152837/080fea1b-2168-48d6-a68f-803e94c565b8" width="200"> | <img src="https://github.com/maoliyan/DUIX-image/assets/170152837/50b1cd05-9a6c-48bd-abbf-72a18e89b503" width="200"> |
@@ -61,7 +46,15 @@ https://apps.apple.com/us/app/duix-your-ai-companion/id6451088879
 |:-------:|:-------:|:-------:|:-------:|:-------:|
 | **忆瑶 [下载](https://digital-public.obs.cn-east-3.myhuaweicloud.com/duix/digital/model/1716891579303/yiyao_20240529.zip)** | **心妍 [下载](https://digital-public.obs.cn-east-3.myhuaweicloud.com/duix/digital/model/1716891699212/xinyan_20240529.zip)** | **晓萱 [下载](https://digital-public.obs.cn-east-3.myhuaweicloud.com/duix/digital/model/1716891894722/xiaoxuan_20240529.zip)** | **思瑶 [下载](https://digital-public.obs.cn-east-3.myhuaweicloud.com/duix/digital/model/1716892228368/siyao_20240529.zip)** | **诗雅 [下载](https://digital-public.obs.cn-east-3.myhuaweicloud.com/duix/digital/model/1716892436557/shiya_20240529.zip)** |
 
+| <img src="https://github.com/GuijiAI/duix.ai/raw/main/res/%E5%A5%B3.jpg" width="200"> 
+|:-------:|
+| **知心姐姐 [下载](https://digital-public.obs.cn-east-3.myhuaweicloud.com/duix/digital/model/1716034688/bendi1_0329.zip)** |
+
 请根据您的需求下载相应的模型文件。我们建议您在下载后仔细阅读随附的文档，以确保正确安装和使用模型。<br><br>
+
+### 商业案例展示 Business case presentation
+https://apps.apple.com/us/app/duix-your-ai-companion/id6451088879
+![image](https://github.com/GuijiAI/duix.ai/assets/36072872/a0b987e2-0b35-42e5-bbc6-3dae2f701ac3)
 
 ### 版本记录 Changelog
 
