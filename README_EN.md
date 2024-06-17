@@ -1,4 +1,4 @@
-![image](https://github.com/GuijiAI/duix.ai/assets/170152837/9d99df24-cf03-4f91-a806-9197144b0803)# Duix - Silicon-Based Digital Human SDK 🌐🤖   
+# Duix - Silicon-Based Digital Human SDK 🌐🤖   
 
 <div style="width: 100%; text-align: center;">
   <img src="res/logo_en.jpg" style="width: 100%; height: auto;"/>
