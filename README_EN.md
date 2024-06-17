@@ -40,23 +40,12 @@ For android, refer to [README_en.md](./duix-android/dh_aigc_android/README_en.md
 
 For ios, refer to [GJLocalDigitalSDK_en.md](./duix-ios/GJLocalDigitalDemo/GJLocalDigitalSDK_en.md)<br><br>
 
-## Digital Human Avatar Display
-
-<p align="center">
-  <img src="res/女.jpg" width=200/>
-  <img src="res/男.jpg" width=200/>
-</p>
-
-The built-in public models, templates, and AI model packages can be downloaded via the public internet address. [Female](https://digital-public.obs.cn-east-3.myhuaweicloud.com/duix/digital/model/1716034688/bendi1_0329.zip) [Male](https://digital-public.obs.cn-east-3.myhuaweicloud.com/duix/digital/model/1716034688/bendi3_20240518.zip)<br><br>
-
-### More Local Model Downloads
-
-We provide additional digital human models for download and use. Here is the list of currently available models: We will update the local model packages periodically so you can download and use the latest models. Here is the list of currently available local model packages:
-
+## Download Digital Human Local Model
+We offer a selection of digital human models for download and use. We will update the local model packages from time to time so that you can download and utilize the latest models. Below is the list of currently available local model packages:
 #### male
-|  <img src="https://github.com/maoliyan/DUIX-image/assets/170152837/afcd510c-e4e1-42dc-bb2d-40fe488e5670" width="200"> | <img src="https://github.com/maoliyan/DUIX-image/assets/170152837/788dfce8-0ca6-41c1-93f8-628999915a8d" width="200">|
-|:-------:|:-------:|
-| **Eric**<br>[Download](https://digital-public.obs.cn-east-3.myhuaweicloud.com/duix/digital/model/1716888516200/airuike_20240528.zip) | **Zi Xuan**<br>[Download](https://digital-public.obs.cn-east-3.myhuaweicloud.com/duix/digital/model/1716890628522/zixuan_20240529.zip) |
+|  <img src="https://github.com/maoliyan/DUIX-image/assets/170152837/afcd510c-e4e1-42dc-bb2d-40fe488e5670" width="200"> | <img src="https://github.com/maoliyan/DUIX-image/assets/170152837/788dfce8-0ca6-41c1-93f8-628999915a8d" width="200">| <img src="https://github.com/GuijiAI/duix.ai/raw/main/res/%E7%94%B7.jpg" width="200">|
+|:-------:|:-------:|:-------:|
+| **Eric**<br>[Download](https://digital-public.obs.cn-east-3.myhuaweicloud.com/duix/digital/model/1716888516200/airuike_20240528.zip) | **Zi Xuan**<br>[Download](https://digital-public.obs.cn-east-3.myhuaweicloud.com/duix/digital/model/1716890628522/zixuan_20240529.zip) | **Ming Xuan**<br>[Download](https://digital-public.obs.cn-east-3.myhuaweicloud.com/duix/digital/model/1716034688/bendi3_20240518.zip) |
 
 #### female
 | <img src="https://github.com/maoliyan/DUIX-image/assets/170152837/09d0b60a-3eef-4889-a5da-b880feaa395a" width="200"> | <img src="https://github.com/maoliyan/DUIX-image/assets/170152837/390cca82-2202-43e7-add6-a2693847cffd" width="200"> | <img src="https://github.com/maoliyan/DUIX-image/assets/170152837/aeca6d5e-f706-462e-b8be-708358ffdabe" width="200"> | <img src="https://github.com/maoliyan/DUIX-image/assets/170152837/080fea1b-2168-48d6-a68f-803e94c565b8" width="200"> | <img src="https://github.com/maoliyan/DUIX-image/assets/170152837/50b1cd05-9a6c-48bd-abbf-72a18e89b503" width="200"> |
@@ -67,7 +56,15 @@ We provide additional digital human models for download and use. Here is the lis
 |:-------:|:-------:|:-------:|:-------:|:-------:|
 | **Yi Yao<br>[Download](https://digital-public.obs.cn-east-3.myhuaweicloud.com/duix/digital/model/1716891579303/yiyao_20240529.zip)** | **Xin Yan<br>[Download](https://digital-public.obs.cn-east-3.myhuaweicloud.com/duix/digital/model/1716891699212/xinyan_20240529.zip)** | **Xiao Xuan<br>[Download](https://digital-public.obs.cn-east-3.myhuaweicloud.com/duix/digital/model/1716891894722/xiaoxuan_20240529.zip)** | **Si Yao<br>[Download](https://digital-public.obs.cn-east-3.myhuaweicloud.com/duix/digital/model/1716892228368/siyao_20240529.zip)** | **Shi Ya<br>[Download](https://digital-public.obs.cn-east-3.myhuaweicloud.com/duix/digital/model/1716892436557/shiya_20240529.zip)** |
 
+| <img src="https://github.com/GuijiAI/duix.ai/raw/main/res/%E5%A5%B3.jpg" width="200"> 
+|:-------:|
+| **Dear Sister<br> [Download](https://digital-public.obs.cn-east-3.myhuaweicloud.com/duix/digital/model/1716034688/bendi1_0329.zip)** |
+
 Please download the model files according to your needs. We recommend that you carefully read the accompanying documentation after downloading to ensure the correct installation and use of the models.<br><br>
+
+### Business case presentation
+https://apps.apple.com/us/app/duix-your-ai-companion/id6451088879
+![image](https://github.com/GuijiAI/duix.ai/assets/36072872/a0b987e2-0b35-42e5-bbc6-3dae2f701ac3)
 
 ## Version Record
 
