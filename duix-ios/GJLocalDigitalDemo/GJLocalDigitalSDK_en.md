@@ -95,6 +95,7 @@ Development Tool: Xcode ios12.0 and above iphoneX and above
 ```
 /*
 *wavPath Local path of audio
+*1 channel ,16 bit deep,16000 sampling rate, WAV local file
 */
 -(void)toSpeakWithPath:(NSString*)wavPath;
 ```
