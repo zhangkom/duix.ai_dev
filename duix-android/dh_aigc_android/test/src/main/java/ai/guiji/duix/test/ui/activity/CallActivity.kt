@@ -112,6 +112,9 @@ class CallActivity : BaseActivity() {
         mDUIXRender?.release()
     }
 
+    /**
+     * 播放16k采样率单通道16位深的wav本地文件
+     */
     private fun playWav() {
         val wavName = "help.wav"
         val wavDir = File(mContext.getExternalFilesDir("duix"), "wav")
