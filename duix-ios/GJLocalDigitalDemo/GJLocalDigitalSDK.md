@@ -40,7 +40,7 @@
 ```
 /*
 *数字人渲染报错回调
-*0 未授权 -1未初始化 50009资源超时或未配置
+* -1未初始化 50009资源超时或未配置
 */
 @property (nonatomic, copy) void (^playFailed)(NSInteger code,NSString *errorMsg);
 
@@ -66,7 +66,7 @@
 /*
 *basePath 底层通用模型路径-保持不变
 *digitalPath 数字人模型路径- 替换数字人只需要替换这个路径
-*return 1 返回成功 0未授权 -1 初始化失败
+*return 1 返回成功  -1 初始化失败
 *showView 显示界面
 */
 -(NSInteger)initBaseModel:(NSString*)basePath digitalModel:(NSString*)digitalPath showView:(UIView*)showView;
