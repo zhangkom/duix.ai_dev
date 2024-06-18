@@ -74,7 +74,7 @@ Development Tool: Xcode ios12.0 and above iphoneX and above
 /*
 *basePath Base common model path - remains unchanged
 *digitalPath Digital person model path - only need to replace this path to replace the digital person
-*return 1 Success 0 Unauthorized -1 Initialization failed
+*return 1 Success  -1 Initialization failed
 *showView Display interface
 */
 -(NSInteger)initBaseModel:(NSString*)basePath digitalModel:(NSString*)digitalPath showView:(UIView*)showView;
