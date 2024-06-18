@@ -86,7 +86,8 @@
 
 ```
 /*
-*wavPath 音频的本地路径 
+*wavPath 音频的本地路径
+*1通道 16位深 16000采样率的wav本地文件
 */
 -(void)toSpeakWithPath:(NSString*)wavPath;
 ```
