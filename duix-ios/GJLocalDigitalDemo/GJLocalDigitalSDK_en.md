@@ -42,7 +42,7 @@ Development Tool: Xcode ios12.0 and above iphoneX and above
 
 *Digital person rendering error callback
 
-*0 Unauthorized -1 uninitialized 50009 resource timeout or not configured
+* -1 uninitialized 50009 resource timeout or not configured
 
 */ 
 
