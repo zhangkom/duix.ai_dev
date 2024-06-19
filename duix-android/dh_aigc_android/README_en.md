@@ -1,4 +1,4 @@
-# Silicon-Based Digital Human SDK
+# Silicon-Based Digital Human SDK [[中文]](./README.md)
 
 ## I. Product Introduction
 
@@ -205,7 +205,7 @@ Call this interface to terminate the broadcast when the digital human is broadca
 
 Function definition:
 
-```kotlin
+```
 boolean stopAudio();
 ```
 

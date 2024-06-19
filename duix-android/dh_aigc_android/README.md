@@ -1,4 +1,4 @@
-# 硅基数字人SDK
+# 硅基数字人SDK [[English]](./README_en.md)
 
 ## 一、产品介绍
 
