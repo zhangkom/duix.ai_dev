@@ -94,3 +94,7 @@ https://apps.apple.com/us/app/duix-your-ai-companion/id6451088879
 
 ### 联系我们 contact us
     maoliyan@guiji.ai
+
+## Star History
+
+[![Star History Chart](https://api.star-history.com/svg?repos=GuijiAI/duix.ai&type=Date)](https://star-history.com/#GuijiAI/duix.ai&Date)
