@@ -156,7 +156,7 @@ override fun onCreate(savedInstanceState: Bundle?) {
     binding.glTextureView.renderMode =
         GLSurfaceView.RENDERMODE_WHEN_DIRTY      // 一定要在设置完Render之后再调用
 
-    duix = DUIX(mContext, duixOptions, mDUIXRender) { event, msg, _ ->
+    duix = DUIX(mContext, baseDir, modelDir, mDUIXRender) { event, msg, _ ->
     }
     // ...
 }
@@ -253,6 +253,7 @@ duix?.motion()
 1. 驱动渲染必须正确的配置基础配置文件夹和对应模型文件夹的存储路径。
 2. 播放的音频文件不宜过大，过大的音频导入会导致大量消耗CPU，从而造成绘制卡顿。
 3. 替换预览模型可以在MainActivity.kt文件中修改modelUrl的值，使用demo中自带的文件下载解压管理以获得完整的模型文件。或者自行下载解压并在DUIX初始化时正确传递文件夹路径。
+4. 播放音频使用16k采样率单通道16位深的wav本地文件
 
 ## 六、版本记录
 

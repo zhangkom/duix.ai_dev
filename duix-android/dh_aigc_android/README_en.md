@@ -151,7 +151,7 @@ override fun onCreate(savedInstanceState: Bundle?) {
     binding.glTextureView.renderMode =
         GLSurfaceView.RENDERMODE_WHEN_DIRTY      // Must be called after setting Render
 
-    duix = DUIX(mContext, duixOptions, mDUIXRender) { event, msg, _ ->
+    duix = DUIX(mContext, baseDir, modelDir, mDUIXRender) { event, msg, _ ->
     }
     // ...
 }

@@ -27,7 +27,7 @@ class MainActivity : BaseActivity() {
     // https://cdn.guiji.ai/duix/digital/model/1706009711636/liangwei_540s.zip
     // https://cdn.guiji.ai/duix/digital/model/1706009766199/mingzhi_540s.zip
     private val modelUrl =
-        "https://cdn.guiji.ai/duix/digital/model/1706009711636/liangwei_540s.zip"   // ** 在这里更新模型地址 **
+        "https://cdn.guiji.ai/duix/digital/model/1716034688/bendi3_20240518.zip"   // ** 在这里更新模型地址 **
     private lateinit var modelDir: File
     private val liangweiUUID = "d39caddd-488b-4682-b6d1-13549b135dd1"       // 可以用来控制模型文件版本
     private var modelReady = false

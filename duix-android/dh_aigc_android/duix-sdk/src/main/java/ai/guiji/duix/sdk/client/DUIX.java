@@ -78,7 +78,7 @@ public class DUIX {
     /**
      * 播放音频文件
      *
-     * @param wavPath 音频文件路径或网络URL
+     * @param wavPath 16k采样率单通道16位深的wav本地文件
      */
     public void playAudio(String wavPath) {
         if (isReady && duixRender != null) {
