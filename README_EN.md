@@ -8,9 +8,9 @@
 
 ## Introduction
 
-DUIX, short for “Dialogue User Interface System”, is a digital human intelligent interaction platform created by Silicon Intelligence. The digital human SDK has been open-sourced, allowing developers to deploy on Android and iOS devices with one click, providing users with immediate virtual human interaction experience. The built-in two avatars allow users to easily get started and directly experience the charm of digital humans.
+DUIX, short for “Dialogue User Interface System”, is a digital human intelligent interaction platform developed by Silicon-based Intelligence. It has been open-sourced, allowing developers to deploy on devices such as Android and iOS with a single click, providing users with an immediate virtual human interaction experience. The built-in two images allow users to easily get started and directly experience the charm of digital humans.
 
-The SDK not only provides intuitive effect demonstration but also supports users for secondary development. Developers can easily develop customized virtual human applications based on the provided open documentation. The Silicon-based Digital Human SDK is completely open-source, with both the underlying inference engine and the upper-level commercial application logic open to source code. Developers can delve into its working principle and further optimize and innovate.<br><br>
+This project provides intuitive effect display and supports users for secondary development. Users can easily develop customized virtual human applications based on the provided open documentation, with both the underlying reasoning engine and the upper-level commercial application logic open-sourced. Developers can gain a deep understanding of its working principles and carry out further optimization and innovation.<br><br>
 
 ## Applicable Scenarios
 
