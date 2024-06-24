@@ -4,7 +4,9 @@
   <img src="res/logo.jpg" style="width: 100%; height: auto;"/>
 </div>
 
-💬 [WeChat (微信)](https://github.com/GuijiAI/duix.ai/blob/main/res/%E4%BA%8C%E7%BB%B4%E7%A0%81.jpg)  😄 [Discord](https://discord.gg/8jh28PVsMU)  <br><br> 
+
+ 📖 Documentation  [[android]](./duix-android/dh_aigc_android/README.md)&nbsp;&nbsp;[[ios]](./duix-ios/GJLocalDigitalDemo/GJLocalDigitalSDK.md)&nbsp;&nbsp;&nbsp;&nbsp;💬 [WeChat (微信)](https://github.com/GuijiAI/duix.ai/blob/main/res/%E4%BA%8C%E7%BB%B4%E7%A0%81.jpg)&nbsp;&nbsp;&nbsp;&nbsp;😄 [Discord](https://discord.gg/8jh28PVsMU)  <br><br> 
+
 
 ## 简介 Introduction   
 DUIX（Dialogue User Interface System）是硅基智能打造的AI数字人智能交互平台。通过将数字人交互能力开源，开发者可自行接入多方大模型、语音识别（ASR）、语音合成（TTS）能力，实现数字人实时交互，并在Android和iOS多终端一键部署，让每个开发者可轻松创建智能化、个性化的数字人Agent，并应用到各行各业。  <br><br> 
