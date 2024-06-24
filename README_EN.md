@@ -4,7 +4,7 @@
   <img src="res/logo_en.jpg" style="width: 100%; height: auto;"/>
 </div>
 
-
+ 📖 Documentation  [[android]](./duix-android/dh_aigc_android/README.md)&nbsp;&nbsp;[[ios]](./duix-ios/GJLocalDigitalDemo/GJLocalDigitalSDK.md)&nbsp;&nbsp;&nbsp;&nbsp;💬 [WeChat (微信)](https://github.com/GuijiAI/duix.ai/blob/main/res/%E4%BA%8C%E7%BB%B4%E7%A0%81.jpg)&nbsp;&nbsp;&nbsp;&nbsp;😄 [Discord](https://discord.gg/8jh28PVsMU)  <br><br> 
 
 ## Introduction
 
