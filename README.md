@@ -60,8 +60,8 @@ https://apps.apple.com/us/app/duix-your-ai-companion/id6451088879
 
 ### 常见问题解答
 #### 1.可以支持数字人定制吗？是基于照片还是视频？<br>
-答：可以支持数字人定制，我们是基于视频进行数字人定制。您可以定制专属的数字人用于SDK中。但定制的数字人属于付费服务，您可以通过扫码与我们联系。
-![image](https://github.com/GuijiAI/duix.ai/blob/main/res/mao_QR.jpg)<br>
+答：可以支持数字人定制，我们是基于视频进行数字人定制。您可以定制专属的数字人用于SDK中。但定制的数字人属于付费服务，您可以通过微信扫码与我们联系。<br>
+<img src="https://github.com/GuijiAI/duix.ai/blob/main/res/mao_QR.jpg" width="200">
 
 #### 2.如何定制形象？<br>
 答：定制硅基数字人需要拍摄一段 3-5 分钟的真人出镜口播视频，具体出镜姿势、口播内容，可以根据最终的真实使用场景来确定。比如用来制作法律咨询相关视频，即可选择正装出镜，口播法律相关内容，这样整体情景比较一致。 <br>
