@@ -61,11 +61,11 @@ Please download the model files according to your needs. We recommend that you c
 
 ## Business case presentation
 https://apps.apple.com/us/app/duix-your-ai-companion/id6451088879
-![image](https://github.com/GuijiAI/duix.ai/assets/36072872/a0b987e2-0b35-42e5-bbc6-3dae2f701ac3)<br><br>
+![image](https://github.com/GuijiAI/duix.ai/blob/main/res/chatgirl.png)<br><br>
 
 ## Frequently Asked Questions
-#### 1. Can digital human customization be supported? Is it based on photos or videos?<br>
-Answer: Support for digital human customization, we are based on video for digital human customization. You can customize exclusive digital humans for SDK. However, customized digital humans are paid services, you can contact us by scanning WeChat QR code.<br>
+#### 1. Are free avatar models available for commercial use? Do they support digital human customization? Are they based on photos or videos?<br>
+Answer: The free avatar models are not available for commercial use! If needed, we can support digital human customization. Our digital human customization is based on videos. You can customize a unique digital human for use in the SDK. However, the customized digital human service is a paid service. You can contact us by scanning the QR code on WeChat.<br>
 <img src="https://github.com/GuijiAI/duix.ai/blob/main/res/mao_QR.jpg" width="200">
 
 #### 2. How to customize a digital avatar?<br>
