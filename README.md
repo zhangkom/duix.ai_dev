@@ -56,11 +56,11 @@ ios参考 [简体中文](./duix-ios/GJLocalDigitalDemo/GJLocalDigitalSDK.md)  <b
 
 ### 商业案例展示 Business case presentation
 https://apps.apple.com/us/app/duix-your-ai-companion/id6451088879
-![image](https://github.com/GuijiAI/duix.ai/assets/36072872/a0b987e2-0b35-42e5-bbc6-3dae2f701ac3)<br><br>
+![image](https://github.com/GuijiAI/duix.ai/blob/main/res/chatgirl.png)<br><br>
 
 ### 常见问题解答
-#### 1.可以支持数字人定制吗？是基于照片还是视频？<br>
-答：可以支持数字人定制，我们是基于视频进行数字人定制。您可以定制专属的数字人用于SDK中。但定制的数字人属于付费服务，您可以通过微信扫码与我们联系。<br>
+#### 1.免费形象模型是否可以商用？可以支持数字人定制吗？是基于照片还是视频？<br>
+答：免费提供的形象模型不可商用！如有需要可以支持数字人定制，我们是基于视频进行数字人定制。您可以定制专属的数字人用于SDK中。但定制的数字人属于付费服务，您可以通过微信扫码与我们联系。<br>
 <img src="https://github.com/GuijiAI/duix.ai/blob/main/res/mao_QR.jpg" width="200">
 
 #### 2.如何定制形象？<br>
