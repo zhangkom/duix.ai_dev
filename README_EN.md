@@ -66,7 +66,7 @@ https://apps.apple.com/us/app/duix-your-ai-companion/id6451088879
 ## Frequently Asked Questions
 #### 1. Are free avatar models available for commercial use? Do they support digital human customization? Are they based on photos or videos?<br>
 Answer: The free avatar models are not available for commercial use! If needed, we can support digital human customization. Our digital human customization is based on videos. You can customize a unique digital human for use in the SDK. However, the customized digital human service is a paid service. You can contact us by scanning the QR code on WeChat.<br>
-<img src="https://github.com/GuijiAI/duix.ai/blob/main/res/mao_QR.jpg" width="200">
+<img src="https://github.com/GuijiAI/duix.ai/blob/main/res/yao.jpg" width="200">
 
 #### 2. How to customize a digital avatar?<br>
 Answer: To customize a silicon-based digital human, you need to shoot a 3-5 minute video featuring a real person speaking directly to the camera. The specific posture and content of the speech can be determined according to the actual usage scenario. For example, if the video is for legal consultation purposes, you can choose to appear in formal attire and speak about legal-related content, ensuring consistency with the overall context. <br>
