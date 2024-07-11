@@ -10,18 +10,11 @@
 
 DUIX, short for “Dialogue User Interface System”, is an AI-powered digital human interaction platform created by Silicon-based Intelligence. By open-sourcing the capabilities of digital human interaction, developers can easily integrate large-scale models, automatic speech recognition (ASR), and text-to-speech (TTS) capabilities, enabling real-time interaction with digital humans. It supports one-click deployment on multiple platforms including Android and iOS, allowing each developer to effortlessly create intelligent and personalized digital human agents, and apply them in various industries.<br><br>
 
-## Applicable Scenarios
+## Project features
 
 - Low deployment cost: No need for customers to provide technical teams for cooperation, supports low-cost rapid deployment on various terminals and large screens.
 - Low network dependence: Suitable for virtual assistant self-service in scenarios such as subways, banks, and government affairs.
 - Diverse functions: Can meet the diverse needs of video, media, customer service, finance, radio, and television in multiple industries according to customer requirements.<br><br>
-
-## Core Functions
-
-- Provides customized AI anchors and intelligent customer service for multi-scene image rental.
-- Exclusive image customization: Supports the customization of exclusive virtual assistant images, with options for low-cost or deep image generation.
-- Broadcast content customization: Supports the customization of exclusive broadcast content, applied in training, broadcasting, and other scenarios.
-- Real-time interactive Q&A: Supports real-time dialogue, can also customize exclusive Q&A databases to meet consulting inquiries, voice chat, virtual companionship, and vertical scene customer service Q&A.<br><br>
 
 ## Source Code Directory Description
 
