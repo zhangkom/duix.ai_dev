@@ -1,4 +1,4 @@
-# Duix - Silicon-Based Digital Human SDK 🌐🤖   
+# Duix - Silicon-Based Digital Human SDK 🌐🤖   [[Chinese]](./README_ZH.md)   
 
 <div style="width: 100%; text-align: center;">
   <img src="res/logo_en.jpg" style="width: 100%; height: auto;"/>
