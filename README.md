@@ -10,6 +10,10 @@
 
 DUIX, short for “Dialogue User Interface System”, is an AI-powered digital human interaction platform created by Silicon-based Intelligence. By open-sourcing the capabilities of digital human interaction, developers can easily integrate large-scale models, automatic speech recognition (ASR), and text-to-speech (TTS) capabilities, enabling real-time interaction with digital humans. It supports one-click deployment on multiple platforms including Android and iOS, allowing each developer to effortlessly create intelligent and personalized digital human agents, and apply them in various industries.<br><br>
 
+### Get the latest information
+
+✨Follow&nbsp;[Twitter](https://twitter.com/HuapengSima)&nbsp;to watch the latest digital human videos created based on the open-source capabilities of DUIX, and learn more about project updates and application cases.<br><br> 
+
 ## Project features
 
 - Low deployment cost: No need for customers to provide technical teams for cooperation, supports low-cost rapid deployment on various terminals and large screens.
