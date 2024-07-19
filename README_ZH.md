@@ -1,4 +1,4 @@
-# Duix - 硅基数字人SDK 🌐🤖 [[English]](./README_EN.md)   
+# Duix - 硅基数字人SDK 🌐🤖 [[English]](./README.md)   
 
 <div style="width: 100%; text-align: center;">
   <img src="res/logo.jpg" style="width: 100%; height: auto;"/>
