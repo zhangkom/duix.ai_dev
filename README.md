@@ -92,6 +92,8 @@ Answer: The API for controlling digital human actions is not supported at the mo
 #### 9. How to replace downloaded files?<br>
 Answer: The replacement of downloaded files is detailed in the code.<br><br>
 
+···For more FAQs, please refer to 📑 [FAQ](https://jexopm4t2a.feishu.cn/wiki/Ef1VwGHtRiUIQIkQl1hco2ISnFc)  <br><br> 
+
 ## Version Record
 
 - **3.0.4**: Fixed an issue where some devices’ default gl float low precision caused the avatar to not display properly.
