@@ -5,14 +5,17 @@
 </div>
 
 
- 📖 Documentation  [[android]](./duix-android/dh_aigc_android/README.md)&nbsp;&nbsp;[[ios]](./duix-ios/GJLocalDigitalDemo/GJLocalDigitalSDK.md)&nbsp;&nbsp;&nbsp;&nbsp;💬 [WeChat (微信)](https://github.com/GuijiAI/duix.ai/blob/main/res/%E4%BA%8C%E7%BB%B4%E7%A0%81.jpg)&nbsp;&nbsp;&nbsp;&nbsp;😄 [Discord](https://discord.gg/8jh28PVsMU) &nbsp;&nbsp;&nbsp;&nbsp;📑 [FAQ](https://jexopm4t2a.feishu.cn/wiki/Ef1VwGHtRiUIQIkQl1hco2ISnFc)&nbsp;&nbsp;&nbsp;&nbsp;<br><br> 
+ 📖 Documentation  [[android]](./duix-android/dh_aigc_android/README.md)&nbsp;&nbsp;[[ios]](./duix-ios/GJLocalDigitalDemo/GJLocalDigitalSDK.md)&nbsp;&nbsp;&nbsp;&nbsp;📑 [FAQ](https://jexopm4t2a.feishu.cn/wiki/Ef1VwGHtRiUIQIkQl1hco2ISnFc)  <br><br> 
+
+## 支持 Support
+加入我们的微信或 Discord 社区以获得支持和讨论。关注Twitter，观看基于DUIX开源能力制作的最新数字人视频。<br>
+💬 [加入 WeChat (微信)](https://github.com/GuijiAI/duix.ai/blob/main/res/%E4%BA%8C%E7%BB%B4%E7%A0%81.jpg)<br>
+😄 [加入 Discord](https://discord.gg/8jh28PVsMU)<br>
+✨ [关注 Twitter](https://twitter.com/HuapengSima)<br><br> 
 
 
 ## 简介 Introduction   
 DUIX（Dialogue User Interface System）是硅基智能打造的AI数字人智能交互平台。通过将数字人交互能力开源，开发者可自行接入多方大模型、语音识别（ASR）、语音合成（TTS）能力，实现数字人实时交互，并在Android和iOS多终端一键部署，让每个开发者可轻松创建智能化、个性化的数字人Agent，并应用到各行各业。  <br><br> 
-
-### 获取最新信息 Get the latest information
-✨关注&nbsp;[Twitter](https://twitter.com/HuapengSima) 观看基于DUIX开源能力制作的最新数字人视频，了解更多项目动态和应用案例。<br><br> 
 
 ### 项目特点 Project features
 - 部署成本低: 无需客户提供技术团队进行配合，支持低成本快速部署在多种终端及大屏。
@@ -89,6 +92,8 @@ https://apps.apple.com/us/app/duix-your-ai-companion/id6451088879
 
 #### 9.下载的文件如何替换？<br>
 答：下载文件的替换详见代码<br><br>
+
+更多FAQ，请参阅📑 [FAQ](https://jexopm4t2a.feishu.cn/wiki/Ef1VwGHtRiUIQIkQl1hco2ISnFc)  <br><br> 
 
 ### 版本记录 Changelog
 
