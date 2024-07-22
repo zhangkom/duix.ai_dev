@@ -34,7 +34,8 @@ ios参考 [简体中文](./duix-ios/GJLocalDigitalDemo/GJLocalDigitalSDK.md)  <b
 
 ### 如何部署 How to deploy
 本文档详尽阐述了针对本项目的开发者对接流程。需要注意的是，每位开发者在进行对接时可能会遇到不同的流程环节。此文档仅供开发者作为参考使用。<br>
-[Interface Reference Handbook](./Interface%20Reference%20Handbook.pdf) <br><br>
+[Interface Reference Handbook_ZH](./Interface%20Reference%20Handbook_ZH.pdf) <br>
+[Interface Reference Handbook_EN](./Interface%20Reference%20Handbook_EN.pdf) <br><br>
 
 
 ### 数字人本地模型下载 Download Digital Human Local Model
