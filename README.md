@@ -4,15 +4,18 @@
   <img src="res/logo_en.jpg" style="width: 100%; height: auto;"/>
 </div>
 
- 📖 Documentation  [[android]](./duix-android/dh_aigc_android/README.md)&nbsp;&nbsp;[[ios]](./duix-ios/GJLocalDigitalDemo/GJLocalDigitalSDK.md)&nbsp;&nbsp;&nbsp;&nbsp;💬 [WeChat (微信)](https://github.com/GuijiAI/duix.ai/blob/main/res/%E4%BA%8C%E7%BB%B4%E7%A0%81.jpg)&nbsp;&nbsp;&nbsp;&nbsp;😄 [Discord](https://discord.gg/8jh28PVsMU) &nbsp;&nbsp;&nbsp;&nbsp;📑 [FAQ](https://jexopm4t2a.feishu.cn/wiki/Ef1VwGHtRiUIQIkQl1hco2ISnFc)  <br><br> 
+ 📖 Documentation  [[android]](./duix-android/dh_aigc_android/README.md)&nbsp;&nbsp;[[ios]](./duix-ios/GJLocalDigitalDemo/GJLocalDigitalSDK.md)&nbsp;&nbsp;&nbsp;&nbsp;📑 [FAQ](https://jexopm4t2a.feishu.cn/wiki/Ef1VwGHtRiUIQIkQl1hco2ISnFc)  <br><br> 
+
+## Support
+Join our wechat or Discord community for support and discussions. Follow Twitter,to watch the latest digital human videos created based on the open-source capabilities of DUIX.<br>
+💬 [Join our WeChat (微信)](https://github.com/GuijiAI/duix.ai/blob/main/res/%E4%BA%8C%E7%BB%B4%E7%A0%81.jpg)<br>
+😄 [Join our Discord](https://discord.gg/8jh28PVsMU)<br>
+✨ [Follow us on Twitter](https://twitter.com/HuapengSima)<br><br> 
 
 ## Introduction
 
 DUIX, short for “Dialogue User Interface System”, is an AI-powered digital human interaction platform created by Silicon-based Intelligence. By open-sourcing the capabilities of digital human interaction, developers can easily integrate large-scale models, automatic speech recognition (ASR), and text-to-speech (TTS) capabilities, enabling real-time interaction with digital humans. It supports one-click deployment on multiple platforms including Android and iOS, allowing each developer to effortlessly create intelligent and personalized digital human agents, and apply them in various industries.<br><br>
 
-### Get the latest information
-
-✨Follow&nbsp;[Twitter](https://twitter.com/HuapengSima)&nbsp;to watch the latest digital human videos created based on the open-source capabilities of DUIX, and learn more about project updates and application cases.<br><br> 
 
 ## Project features
 
