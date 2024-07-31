@@ -1,7 +1,7 @@
 #include "aimodel.h"
 #include <stdlib.h>
 #include <string.h>
-
+#include "benchmark.h"
 void AiCfg::dump(){
     int incnt = size_inputs.size();
     int outcnt = size_outputs.size();
@@ -226,6 +226,7 @@ int OnnxModel::doInitModel(){
 
 
 int OnnxModel::doRunModel(void** arrin,void** arrout,void* stream,AiCfg* pcfg){
+//    double time_start = ncnn::get_current_time();
     AiCfg* cfg = pcfg==nullptr?m_cfg:pcfg;
     int incnt = cfg->size_inputs.size();
     int outcnt = cfg->size_outputs.size();
@@ -240,7 +241,15 @@ int OnnxModel::doRunModel(void** arrin,void** arrout,void* stream,AiCfg* pcfg){
     for(int k=0;k<outcnt;k++){
         outputTensors.push_back(Ort::Value::CreateTensor( memoryInfo, arrout[k] ,cfg->size_outputs[k]*4 , cfg->shape_outputs[k].data(), cfg->shape_outputs[k].size(),(ONNXTensorElementDataType)cfg->kind_outputs[k] ));
     }
+        for (int i=0; i<inputTensors.size(); i++) {
+            __android_log_print(ANDROID_LOG_DEBUG, "2dsta", "shape_inputs:%lld,%lld,%lld,%lld\n",inputTensors[i].GetTypeInfo().GetTensorTypeAndShapeInfo().GetShape()[0], inputTensors[i].GetTypeInfo().GetTensorTypeAndShapeInfo().GetShape()[1],inputTensors[i].GetTypeInfo().GetTensorTypeAndShapeInfo().GetShape()[2],inputTensors[i].GetTypeInfo().GetTensorTypeAndShapeInfo().GetShape()[3]);
+        }
     this->session.Run(Ort::RunOptions{nullptr}, cfg->names_in, inputTensors.data(), incnt, cfg->names_out, outputTensors.data(),outcnt);
+    for (int i=0; i<inputTensors.size(); i++) {
+        __android_log_print(ANDROID_LOG_DEBUG, "2dsta", "shape_outputs:%lld,%lld,%lld,%lld\n",outputTensors[i].GetTypeInfo().GetTensorTypeAndShapeInfo().GetShape()[0], outputTensors[i].GetTypeInfo().GetTensorTypeAndShapeInfo().GetShape()[1],outputTensors[i].GetTypeInfo().GetTensorTypeAndShapeInfo().GetShape()[2],outputTensors[i].GetTypeInfo().GetTensorTypeAndShapeInfo().GetShape()[3]);
+    }
+
+ //   __android_log_print(ANDROID_LOG_DEBUG, "2dsta", "infer1 time: %f", ncnn::get_current_time()-time_start);
     if(1)return 0;
     /*
     //for(int k=0;k<9;k++)dumpfloat((float*)arrout[k],10);//size_outputs[0]);

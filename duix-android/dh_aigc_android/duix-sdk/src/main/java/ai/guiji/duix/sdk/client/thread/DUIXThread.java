@@ -260,22 +260,29 @@ public class DUIXThread implements Runnable {
                 float curr = mTotalBnf * progress;
                 audioBnf = (int) curr;
             }
+            //Log.e("2dsta", "audioBnf: " + audioBnf + ",mTotalBnf:" + mTotalBnf);
             if (audioBnf > -1 && audioBnf <= mTotalBnf) {
+//                Log.e("2dsta", "renderStep: " + mModelInfo.isHasMask());
                 if (mModelInfo.isHasMask()) {
+//                    Log.e("2dsta", "mskrstbuf");
                     int rst = scrfdncnn.mskrstbuf(frame.rawPath, frame.maskPath, frame.rect, audioBnf, frame.sgPath, rawBuffer.array(), maskBuffer.array(), mModelInfo.getWidth() * mModelInfo.getHeight() * 3);
                     //                Log.e("123", "mskrstbuf rst: " + rst);
                 } else {
+//                    Log.e("2dsta", "onerstbuf");
                     int rst = scrfdncnn.onerstbuf(frame.rawPath, frame.rect, audioBnf, rawBuffer.array(), mModelInfo.getWidth() * mModelInfo.getHeight() * 3);
                 }
             } else {
                 if (mModelInfo.isHasMask()) {
+//                    Log.e("2dsta", "drawmskbuf");
                     int rst = scrfdncnn.drawmskbuf(frame.sgPath, frame.maskPath, rawBuffer.array(), maskBuffer.array(), mModelInfo.getWidth() * mModelInfo.getHeight() * 3);
 //                Log.e("123", "drawmskbuf rst: " + rst);
                 } else {
+//                    Log.e("2dsta", "drawonebuf");
                     int rst = scrfdncnn.drawonebuf(frame.rawPath, rawBuffer.array(), mModelInfo.getWidth() * mModelInfo.getHeight() * 3);
                 }
             }
             if (renderSink != null) {
+//                Log.e("2dsta", "onVideoFrame");
                 renderSink.onVideoFrame(new ImageFrame(rawBuffer, maskBuffer, mModelInfo.getWidth(), mModelInfo.getHeight()));
             }
         }

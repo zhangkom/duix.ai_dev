@@ -82,12 +82,14 @@ public class ModelInfo implements Serializable {
         long startTime = System.currentTimeMillis();
         ModelInfo info = new ModelInfo();
         // md5检查
-        Logger.i( "开始MD5文件检查...");
+        Logger.i( "2dsta", "开始MD5文件检查...");
         Set<String> baseKeySet = baseMD5Map.keySet();
         for (String key : baseKeySet) {
             String value = baseMD5Map.get(key);
+            Logger.i("2dsta", "base value:" + value + ",key:" + key);
             if (value != null) {
                 File targetFile = new File(baseDir, value);
+                Logger.i("2dsta","path:" + targetFile.getAbsolutePath());
                 if (!targetFile.exists()) {
                     Logger.i("base需要的MD5文件不存在，尝试转换: " + targetFile.getAbsolutePath());
                     File srcFile = new File(baseDir, key);
@@ -103,7 +105,7 @@ public class ModelInfo implements Serializable {
                         }
                     }
                 } else {
-                    Logger.d("base发现需要的模型文件: " + value);
+                    Logger.d("2dsta","base发现需要的模型文件: " + value);
                 }
             }
         }
@@ -111,6 +113,7 @@ public class ModelInfo implements Serializable {
         Set<String> modelKeySet = modelMD5Map.keySet();
         for (String key : modelKeySet) {
             String value = modelMD5Map.get(key);
+            Logger.i("2dsta", "model value:" + value + ",key:" + key);
             if (value != null) {
                 File targetFile = new File(modelDir, value);
                 if (!targetFile.exists()) {
@@ -132,7 +135,7 @@ public class ModelInfo implements Serializable {
                         }
                     }
                 } else {
-                    Logger.d("model发现需要的模型文件: " + value);
+                    Logger.d("2dsta","model发现需要的模型文件: " + value);
                 }
             }
         }
@@ -144,10 +147,10 @@ public class ModelInfo implements Serializable {
         // 以raw文件夹的数据为准
         try {
             JSONObject bBoxJson = new JSONObject(FileUtil.readFile(new File(modelDir, Objects.requireNonNull(modelMD5Map.get("bbox.j"))).getAbsolutePath()));
-            Logger.d("load bBoxJson: " + bBoxJson);
+            Logger.d("2dsta","load bBoxJson: " + bBoxJson);
 
             JSONObject config = new JSONObject(FileUtil.readFile(new File(modelDir, Objects.requireNonNull(modelMD5Map.get("config.j"))).getAbsolutePath()));
-            Logger.d("load config: " + config);
+            Logger.d("2dsta","load config: " + config);
             // 0是有绿幕的，1是没有绿幕的
             info.hasMask = config.optInt("need_png", 0) == 0 && sgDir.exists() && maskDir.exists();        // 这里判断都否有Mask，兼容之前的，默认有
 

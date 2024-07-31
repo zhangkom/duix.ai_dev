@@ -8,6 +8,15 @@
 #include <vector>
 
 
+#include <MNN/ImageProcess.hpp>
+#include <MNN/Interpreter.hpp>
+#include <MNN/Tensor.hpp>
+#include <MNN/Matrix.h>
+
+using namespace MNN;
+using namespace MNN::CV;
+using namespace std;
+
 class Mobunet{
     private:
         ncnn::Net unet;
@@ -15,6 +24,14 @@ class Mobunet{
         float norm_vals[3] = {1 / 127.5f, 1 / 127.5f, 1 / 127.5f};
         JMat*   mat_weights = nullptr;
         int initModel(const char* binfn,const char* paramfn,const char* mskfn);
+
+
+		Interpreter *netPtr;
+		Session *session;
+		Tensor *inTensorPtr;
+		Tensor *oTensorPtr=NULL, *outTensorPtr=NULL;
+		int inWidth, inHeight;
+		std::map<std::string, MNN::Tensor*> all_input_tensor_;
     public:
         int domodel(JMat* pic,JMat* msk,JMat* feat);
         int domodelold(JMat* pic,JMat* msk,JMat* feat);

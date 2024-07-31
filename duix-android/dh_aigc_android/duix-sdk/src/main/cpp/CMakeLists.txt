@@ -143,8 +143,18 @@ set_target_properties(
         PROPERTIES IMPORTED_LOCATION
         ${CMAKE_SOURCE_DIR}/third/arm/${ANDROID_ABI}/libonnxruntime.so)
 
+
+#MNN头文件
+add_library(MNN SHARED IMPORTED)
+set_target_properties(
+        MNN
+        PROPERTIES IMPORTED_LOCATION
+        ${CMAKE_SOURCE_DIR}/third/arm/${ANDROID_ABI}/libMNNs.so)
+
+
 target_link_libraries(scrfdncnn
     ncnn
+    MNN
     ${OpenCV_LIBS}
     ${log-lib}
     onnx-lib

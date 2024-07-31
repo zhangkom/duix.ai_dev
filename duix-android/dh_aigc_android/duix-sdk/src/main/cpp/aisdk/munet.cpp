@@ -1,7 +1,9 @@
+#include <benchmark.h>
 #include "munet.h"
 #include "cpu.h"
 #include "face_utils.h"
 #include "blendgram.h"
+#include "log.h"
 
 Mobunet::Mobunet(const char* fnbin,const char* fnparam,const char* fnmsk){
     initModel(fnbin,fnparam,fnmsk);
@@ -11,6 +13,9 @@ Mobunet::Mobunet(const char* modeldir,const char* modelid){
     char fnbin[1024];
     char fnparam[1024];
     char fnmsk[1024];
+
+
+    __android_log_print(ANDROID_LOG_DEBUG, "2dsta Mobunet", "%s, %s",modeldir,modelid);
     sprintf(fnbin,"%s/%s.bin",modeldir,modelid);
     sprintf(fnparam,"%s/%s.param",modeldir,modelid);
     sprintf(fnmsk,"%s/weight_168u.bin",modeldir);
@@ -26,14 +31,94 @@ int Mobunet::initModel(const char* binfn,const char* paramfn,const char* mskfn){
     unet.opt.num_threads = ncnn::get_big_cpu_count();
     //unet.load_param("model/mobileunet_v5_wenet_sim.param");
     //unet.load_model("model/mobileunet_v5_wenet_sim.bin");
-    unet.load_param(paramfn);
-    unet.load_model(binfn);
+
+#if 0
+    char* model_param = "/sdcard/2dsta/dp";
+    char* model_bin = "/sdcard/2dsta/db";
+    unet.load_param(model_param);
+    unet.load_model(model_bin);
+    __android_log_print(ANDROID_LOG_DEBUG, "2dsta initModel", "%s, %s, %s",model_bin,model_param,mskfn);
+#else
+
+    char* model_param = "/storage/emulated/0/Android/data/ai.guiji.duix.test/files/duix/bendi3_20240518/dp";
+    char* model_bin = "/storage/emulated/0/Android/data/ai.guiji.duix.test/files/duix/bendi3_20240518/db";
+//    char* model_param = "/storage/emulated/0/Android/data/ai.guiji.duix.test/files/duix/bendi3_20240518/checkpoint_step_002_y.onnx.param";
+//    char* model_bin = "/storage/emulated/0/Android/data/ai.guiji.duix.test/files/duix/bendi3_20240518/checkpoint_step_002_y.onnx.bin";
+
+
+//    FILE *fparam = fopen(model_param, "r");
+//    if (fparam == NULL) {
+//        __android_log_print(ANDROID_LOG_DEBUG, "2dsta fopen", "%p, %d",fparam, errno);
+//    }
+//    FILE *fbin = fopen(model_bin, "r");
+//    if (fbin == NULL) {
+//        __android_log_print(ANDROID_LOG_DEBUG, "2dsta fopen", "%p, %d",fbin, errno);
+//    }
+
+    int ret = unet.load_param(model_param);
+    __android_log_print(ANDROID_LOG_DEBUG, "2dsta load_param", "%d",ret);
+    ret = unet.load_model(model_bin);
+    __android_log_print(ANDROID_LOG_DEBUG, "2dsta load_model", "%d",ret);
+
+    __android_log_print(ANDROID_LOG_DEBUG, "2dsta initModel", "%s, %s, %s",paramfn,binfn,mskfn);
+//    unet.load_param(paramfn);
+//    unet.load_model(binfn);
+#endif
+
     char* wbuf = NULL;
     dumpfile((char*)mskfn,&wbuf);
     mat_weights = new JMat(160,160,(uint8_t*)wbuf,1);
     mat_weights->forceref(0);
     //mat_weights->show("weight");
     //cv::waitKey(0);
+
+
+    //load config
+    ScheduleConfig config;
+
+    config.numThread = 8;
+    config.type = MNN_FORWARD_CPU;
+
+    //read model
+    this->netPtr = Interpreter::createFromFile("/storage/emulated/0/Android/data/ai.guiji.duix.test/files/duix/bendi3_20240518/checkpoint_step_002_y.onnx.mnn");
+//	this->netPtr = Interpreter::createFromFile("/storage/emulated/0/Android/data/ai.guiji.duix.test/files/duix/bendi3_20240518/checkpoint_step_003.mnn");
+
+    //session
+    this->session = this->netPtr->createSession(config);
+
+
+    //input tensor set
+    this->inTensorPtr = this->netPtr->getSessionInput(this->session, NULL);
+
+    all_input_tensor_ = netPtr->getSessionInputAll(session);
+    for (auto iter = all_input_tensor_.begin();
+         iter != all_input_tensor_.end(); iter++) {
+        std::string name = iter->first;
+        MNN::Tensor* input_tensor = iter->second;
+        __android_log_print(ANDROID_LOG_DEBUG, "2dsta","input tensor:%s n:%d c:%d h:%d w:%d type:%d size:%d getDimensionType:%d\n",
+               name.c_str(),input_tensor->batch(),input_tensor->channel(),
+               input_tensor->height(),input_tensor->width(),
+               input_tensor->getType(),input_tensor->size(),input_tensor->getDimensionType());
+    }
+
+    std::map<std::string, MNN::Tensor*> all_output_tensor_ = netPtr->getSessionOutputAll(session);
+    for (auto iter = all_output_tensor_.begin();
+         iter != all_output_tensor_.end(); iter++) {
+        std::string name = iter->first;
+        MNN::Tensor* output_tensor = iter->second;
+        __android_log_print(ANDROID_LOG_DEBUG, "2dsta","output tensor:%s n:%d c:%d h:%d w:%d type:%d size:%d getDimensionType:%d\n",
+               name.c_str(),output_tensor->batch(),output_tensor->channel(),
+               output_tensor->height(),output_tensor->width(),
+               output_tensor->getType(),output_tensor->size(),output_tensor->getDimensionType());
+    }
+
+
+    //output tensor set
+    this->oTensorPtr = this->netPtr->getSessionOutput(this->session, NULL);
+
+    inWidth = this->inTensorPtr->width();
+    inHeight = this->inTensorPtr->height();
+    __android_log_print(ANDROID_LOG_DEBUG, "2dsta", "initModel end");
     return 0;
 }
 
@@ -84,6 +169,7 @@ int Mobunet::domodelold(JMat* pic,JMat* msk,JMat* feat){
 }
 
 int Mobunet::domodel(JMat* pic,JMat* msk,JMat* feat){
+    double start_time = ncnn::get_current_time();
     //convert to bgr
     //pic->tojpg("eee.bmp");
 
@@ -130,12 +216,80 @@ int Mobunet::domodel(JMat* pic,JMat* msk,JMat* feat){
     */
 
     ncnn::Mat inwenet(256,20,1,feat->data());
+
+//    __android_log_print(ANDROID_LOG_DEBUG, "2dsta", "feat %d,%d,%d,%d", feat->channel(), feat->height(), feat->width(), feat->stride());
+
     //ncnn::Mat inwenet(20,256,1,feat->data());
     ncnn::Mat outpic;
     ncnn::Extractor ex = unet.create_extractor();
     ex.input("face", inpic);
     ex.input("audio", inwenet);
     ex.extract("output", outpic);
+
+
+
+//	FILE *ftest = fopen("/storage/emulated/0/1.txt", "w");
+//	__android_log_print(ANDROID_LOG_DEBUG, "2dsta", "ftest=%p, %d\n", ftest, errno);
+
+//	fprintf(ftest, "%d,%d,%d,%d\n", outpic.d, outpic.c, outpic.h, outpic.w);
+//	float *pmnn = (float *)outpic.data;
+//	for (int n=0; n<outpic.d; n++) {
+//		for (int c=0; c<outpic.c; c++) {
+//			for (int h=0; h<outpic.h; h++) {
+//				for (int w=0; w<outpic.w; w++) {
+//					fprintf(ftest, "%f,", pmnn[n * outpic.c * outpic.h * outpic.w + c * outpic.h * outpic.w + h*outpic.w + w]);
+//				}
+//			}
+//		}
+//	}
+//	fprintf(ftest, "\n");
+//	fclose(ftest);
+
+
+	__android_log_print(ANDROID_LOG_DEBUG, "2dsta", "inpic: %d,%d,%d,%d,%d,%d,%d,%d,%d", inpic.elemsize, inpic.cstep, inpic.total(), inwenet.elemsize, inwenet.cstep, inwenet.total(), outpic.elemsize, outpic.cstep, outpic.total());
+
+
+    Tensor * tensor_input35 = all_input_tensor_["input.35"];
+    Tensor * tensor_modelInput = all_input_tensor_["modelInput"];
+
+    memcpy(tensor_input35->host<float>(), (float *)inpic.data, 160 *160 * 6*sizeof(float));
+    memcpy(tensor_modelInput->host<float>(), (float *)inwenet.data, 256 *20 * 1*sizeof(float));
+
+    __android_log_print(ANDROID_LOG_DEBUG, "2dsta", "runSession");
+    this->netPtr->runSession(this->session);
+    __android_log_print(ANDROID_LOG_DEBUG, "2dsta", "runSession end ");
+
+    // outputs
+    MNN::Tensor *output_original = this->netPtr->getSessionOutput(this->session, NULL);;
+    std::shared_ptr<MNN::Tensor> output(new MNN::Tensor(output_original, output_original->getDimensionType()));
+    output_original->copyToHostTensor(output.get());
+    auto type = output->getType();
+    auto size = output->elementSize();
+
+    __android_log_print(ANDROID_LOG_DEBUG, "2dsta", "output size:%d,batch:%d,channel:%d,width:%d height:%d\n", output->elementSize(),output->batch(), output->channel(),output->width(),output->height());
+	__android_log_print(ANDROID_LOG_DEBUG, "2dsta", "type: %d, size=%d", type.code, size);
+
+	memcpy(outpic.data, output.get()->host<float>(), size*sizeof(float));
+
+//	ftest = fopen("/storage/emulated/0/2.txt", "w");
+//	fprintf(ftest, "%d,%d,%d,%d\n", outpic.d, outpic.c, outpic.h, outpic.w);
+//	pmnn = (float *)outpic.data;
+//	for (int n=0; n<outpic.d; n++) {
+//		for (int c=0; c<outpic.c; c++) {
+//			for (int h=0; h<outpic.h; h++) {
+//				for (int w=0; w<outpic.w; w++) {
+//					fprintf(ftest, "%f,", pmnn[n * outpic.c * outpic.h * outpic.w + c * outpic.h * outpic.w + h*outpic.w + w]);
+//				}
+//			}
+//		}
+//	}
+//	fprintf(ftest, "\n");
+//	fclose(ftest);
+
+
+    __android_log_print(ANDROID_LOG_DEBUG, "2dsta", "MNN out end\n");
+
+
     float outmean_vals[3] = {-1.0f, -1.0f, -1.0f};
     float outnorm_vals[3] = { 127.5f,  127.5f,  127.5f};
     outpic.substract_mean_normalize(outmean_vals, outnorm_vals);
@@ -178,6 +332,7 @@ int Mobunet::domodel(JMat* pic,JMat* msk,JMat* feat){
     //BlendGramAlpha((uchar*)picreal.udata(),(uchar*)mat_weights->data(),(uchar*)pic->data(),160,160);
     //cv::cvtColor(picreal.cvmat(),pic->cvmat(),cv::COLOR_RGB2BGR);
     */
+    __android_log_print(ANDROID_LOG_DEBUG, "2dsta",  "infer time: %f\n", ncnn::get_current_time() - start_time);
     return 0;
 }
 

@@ -116,7 +116,8 @@ class CallActivity : BaseActivity() {
      * 播放16k采样率单通道16位深的wav本地文件
      */
     private fun playWav() {
-        val wavName = "help.wav"
+//        val wavName = "help.wav"
+        val wavName = "test_copy_clip_16k.wav"
         val wavDir = File(mContext.getExternalFilesDir("duix"), "wav")
         if (!wavDir.exists()) {
             wavDir.mkdirs()
